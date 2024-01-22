@@ -188,7 +188,7 @@ This is a _trivialization_ of a number of operational models, nothing really new
 A number of advantages:
 
 1. Can be implemented with reference counting
-2. Rewriting so no real need for tail-call optimization
+2. Rewriting so less for tail-call optimization
 3. Programs can be halted and serialized or shipped at any moment
 4. Can easily be extended to support complex control flow and concurrency
 5. Out-of-scope is immediate collection
