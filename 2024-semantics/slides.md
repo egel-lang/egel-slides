@@ -327,6 +327,9 @@ Various libraries for:
 # The Egel interpreter
 
 Implemented on top of C++ with utter disregard for performance
+- no garbage collector but native reference counting
+- combinators form a complex object oriented hierarchy
+- for the moment, header-only library
 
 REPL, batch, command execution
 
