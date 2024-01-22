@@ -51,7 +51,7 @@ Q: design a machine that evaluates terms like the above?
 
 An abstract assembly language (LISP)
 
-A variation of a lambda evaluator à la SECD or CAMC (OCaml)
+A variation of a lambda evaluator à la SECD or CAM (OCaml)
 
 A combinator machine (Miranda)
 
