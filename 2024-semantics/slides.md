@@ -190,6 +190,8 @@ A number of advantages:
 1. Can be implemented with reference counting
 2. Programs can be halted and serialized or shipped at any moment
 3. Can easily be extended to support complex control flow and concurrency
+4. Out-of-scope is immediate collection
+5. Collection can support finalizers
 
 ---
 
@@ -310,7 +312,7 @@ def main = fib 5
 
 # Various
 
-Mutable `ref` objects and mutable dictionaries for speed
+Mutable reference objects and mutable dictionaries for speed
 
 Literate programming in markdown files
 
