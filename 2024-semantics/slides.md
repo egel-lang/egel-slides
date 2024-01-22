@@ -179,6 +179,19 @@ Multiple roots gives parallelism or concurrency
 
 ---
 
+# Directed Acyclic Graph (DAG) 
+
+- A _strong_ invariant
+- Good for teaching, cannot be unseen
+- Shows how term rewriters and stack machines are related
+- Answers why stack machines work
+- Relates to compiling with continuations
+- Explains thunks as heapified stack frames
+- Clarifies why complex machinery (such as effect handlers) are safe
+- Etc., etc, etc.
+
+---
+
 # The semantics
 
 An operational model where reduction can be expressed as trampolining the apex of a directed acyclic graph
