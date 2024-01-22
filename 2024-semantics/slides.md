@@ -39,7 +39,7 @@ Primarily about exploring and exploiting a trivialized operational model
 
 ---
 
-# A term graph
+# A term graph (math)
 
 ![](termA.png)
 
@@ -61,7 +61,7 @@ A graph reduction machine (Haskell, Clean)
 
 ----
 
-# The term graph
+# A term graph (computer)
 
 ![](termB.png)
 
