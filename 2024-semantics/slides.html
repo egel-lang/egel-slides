@@ -158,9 +158,11 @@
 </code></pre>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="19" data-paginate="true" data-theme="default" lang="en-US" data-marpit-pagination="19" style="--paginate:true;--theme:default;" data-marpit-pagination-total="25">
-<h1 id="constants-and-combinators">Constants and combinators</h1>
+<h1 id="combinators">Combinators</h1>
+<p>Constants</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>    data leaf, branch
 </code></pre>
+<p>Functions</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code>    def tree_size = 
         [ leaf -&gt; 0 | (branch _ T0 T1) -&gt; 1 + tree_size T0 + tree_size T1 ]
 </code></pre>

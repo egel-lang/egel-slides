@@ -250,17 +250,22 @@ A rewrite can be any arity
 ```
 
 Let binds variables
+
 ```
     let {X,Y} = {41, 1} in X + Y
 ```
 
 ---
 
-# Constants and combinators
+# Combinators
+
+Constants
 
 ```
     data leaf, branch
 ```
+
+Functions
 
 ```
     def tree_size = 
