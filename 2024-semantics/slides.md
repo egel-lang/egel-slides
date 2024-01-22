@@ -185,8 +185,8 @@ Multiple roots gives parallelism or concurrency
 - Good for teaching, cannot be unseen
 - Shows how term rewriters and stack machines are related
 - Answers why stack machines work
-- Relates to compiling with continuations
 - Explains thunks as heapified stack frames
+- Relates to compiling with continuations
 - Clarifies why complex machinery (such as effect handlers) are safe
 - Etc., etc, etc.
 
