@@ -31,7 +31,7 @@ M.C.A. (Marco) Devillers, January 2024
 
 ---
 
-# The Egel Language
+# The Egel language
 
 Egel is an untyped concurrent functional scripting language based on eager combinator rewriting
 
@@ -209,7 +209,7 @@ A number of advantages:
 
 ---
 
-# The Egel Language
+# The Egel language
 
 A bare-bones frontend to the previous operational model
 
