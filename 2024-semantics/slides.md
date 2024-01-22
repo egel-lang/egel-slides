@@ -51,13 +51,13 @@ Q: design a machine that evaluates terms like the above?
 
 An abstract assembly language (LISP)
 
-A variation of a lambda evaluator a la SECD or CAMC (OCaml)
+A variation of a lambda evaluator à la SECD or CAMC (OCaml)
 
 A combinator machine (Miranda)
 
 A graph reduction machine (Haskell, Clean)
 
-*Or all of the above*
+*Or a bit of all of the above*
 
 ----
 
@@ -75,8 +75,7 @@ A graph reduction machine (Haskell, Clean)
 
 <p class="break"></p>
 
-link all redexes with
-
+Link all redexes with
 1. what redex to reduce next
 2. where to place the reduction
 
@@ -184,12 +183,12 @@ Multiple roots gives parallelism or concurrency
 
 An operational model where reduction can be expressed as trampolining the apex of a directed acyclic graph
 
-This is a trivialization of a number of operational models, nothing really new can be done but clarifies
+This is a _trivialization_ of a number of operational models, nothing really new but _clarifies_
 
 A number of advantages:
 
 1. Can be implemented with reference counting
-2. Programs can be halted and serialized at any moment
+2. Programs can be halted and serialized or shipped at any moment
 3. Can easily be extended to support complex control flow and concurrency
 
 ---
@@ -243,14 +242,13 @@ Let binds variables
 
 # Constants and combinators
 
-Egel programs declare constants and combinators
-
 ```
     data leaf, branch
 ```
 
 ```
-    def tree_size = [ leaf -> 0 | (branch _ T0 T1) -> 1 + tree_size T0 + tree_size T1 ]
+    def tree_size = 
+        [ leaf -> 0 | (branch _ T0 T1) -> 1 + tree_size T0 + tree_size T1 ]
 ```
 
 ---
@@ -275,7 +273,7 @@ Lists
 
 # Exceptions and parallelism
 
-Try/catch statements, anything can be thrown and caught
+Try/catch statements
 
 ```
     try 1 + throw 42 catch [X -> X]
@@ -307,8 +305,37 @@ using Fibonacci
 
 def main = fib 5
 ```
-    
 
+---
 
+# Various
 
+Mutable `ref` objects and mutable dictionaries for speed
+
+Literate programming in markdown files
+
+Various libraries for:
+    - input/output
+    - regular expressions
+    - remote execution of programs
+    - a Python bridge
+
+---
+
+# The Egel interpreter
+
+Implemented on top of C++ with utter disregard for performance
+
+REPL, batch, command execution
+
+A useful toy for short programs or programming language exploration
+
+Sluggish and unpolished experience...
+
+---
+
+# Future goals
+
+1. Make the Egel interpreter user-friendly
+2. Show the model can be performant with a typed backend
 
