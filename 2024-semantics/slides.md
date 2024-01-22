@@ -356,7 +356,7 @@ REPL, batch, command execution
 
 A useful toy for short programs or programming language exploration
 
-Sluggish and unpolished experience...
+*Sluggish and unpolished experience...*
 
 ---
 
