@@ -328,6 +328,8 @@ def main = fib 5
 
 Mutable reference objects and mutable dictionaries for speed
 
+Do notation for function application pipelines
+
 Literate programming in markdown files
 
 Various libraries for:
