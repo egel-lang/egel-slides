@@ -27,7 +27,7 @@ div.twocols p.break {
 
 _semantics, the language, current state, future goals_
 
-M.C.A. (Marco) Devillers
+M.C.A. (Marco) Devillers, January 2024
 
 ---
 
