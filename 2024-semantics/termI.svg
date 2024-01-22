@@ -368,6 +368,26 @@
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path135-6-6-8" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Triangle-5-6-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="0.5"
+       markerHeight="0.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid"
+       markerUnits="userSpaceOnUse">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-6-4-2" />
+    </marker>
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -395,9 +415,9 @@
        inkscape:transform-center-y="-3.8943351" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.703393;stroke-dasharray:none;marker-end:url(#Triangle-5-4-0)"
-       d="m 128.39877,120.86593 c 0,-16.33751 -31.444656,-12.33411 -35.925871,-0.0345 M 66.692282,99.874437 C 44.56833,125.34795 57.250042,118.5563 98.865398,155.39955"
+       d="M 66.692282,99.874437 C 44.56833,125.34795 57.250042,118.5563 98.865398,155.39955"
        id="path4-6-0-3"
-       sodipodi:nodetypes="cccc"
+       sodipodi:nodetypes="cc"
        inkscape:transform-center-x="23.232163"
        inkscape:transform-center-y="-3.8943351" />
     <path
@@ -411,6 +431,13 @@
        style="fill:none;stroke:#000000;stroke-width:0.703393;stroke-dasharray:none;marker-end:url(#Triangle-5-6)"
        d="m 144.62062,120.88631 -34.59591,34.69675"
        id="path4-6-8"
+       sodipodi:nodetypes="cc"
+       inkscape:transform-center-x="23.23216"
+       inkscape:transform-center-y="-3.8943369" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.703393;stroke-dasharray:none;marker-end:url(#Triangle-5-6-0)"
+       d="m 128.39877,120.86593 c 0,-11.28313 -9.46,-29.662794 -35.925871,-0.0345"
+       id="path4-6-8-8"
        sodipodi:nodetypes="cc"
        inkscape:transform-center-x="23.23216"
        inkscape:transform-center-y="-3.8943369" />
