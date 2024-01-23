@@ -1,5 +1,8 @@
 
-Oh, hi there! How are you?
+Oh... Hi there! How are you?
+
+I am Matilda, an Artificial Intelligence voice from Natural Readers. I'll be talking
+you through the coming slides.
 
 In this presentation we'll be discussing the Egel language and interpreter. We'll dive
 into the graph semantics -how egel programs are evaluated-, explore the language,
