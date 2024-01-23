@@ -1,0 +1,10 @@
+
+As explained in the operational model, it's easy to support control flow operators
+and concurrency; and we have implemented exactly that.
+
+Try and catch is supported, any Egel value can be thrown and caught.
+
+The one concurreny operator we support is async and await. The argument
+to async need to be deferred with a lambda to make sure it'll be 
+processed in it's own thread.
+

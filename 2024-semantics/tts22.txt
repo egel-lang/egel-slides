@@ -1,0 +1,18 @@
+
+Egel has rudimentary support for namespaces and modules.
+
+Modules behave similar to textual inclusion of the file referred to.
+A transitive closure is calculated for all imports, that deals with
+possible cycles.
+
+Namespaces separate naming concerns in the standard manner though
+support is rather rudimentary at this point in time.
+
+The example puts it all together. As will be common for most short
+Egel programs, the prelude module is imported after which all 
+combinators in the system namespace are imported.
+
+The Fibonacci function is defined in its standard recursive form
+in its own namespace.
+
+As is common, Egel batch scripts are driven by a main function when defined.

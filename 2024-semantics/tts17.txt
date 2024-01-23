@@ -1,0 +1,8 @@
+
+To start of. Primitives. These are the usual suspects of integers,
+floating point numbers, Unicode character -or code points-, and Unicode strings.
+
+Since Egel is untyped, constants compose. The series of zero and one, or
+cons 'a' nil, roughly denote the same thing, a composition of two or more
+constants.
+

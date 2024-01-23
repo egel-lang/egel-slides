@@ -1,0 +1,16 @@
+
+The workhorse of the Egel language is the anonymous pattern
+matches rewrite. It's close to a lambda abstraction except 
+that it pattern matches.
+
+Variable are always in uppercase to discriminate them from
+constants. You can either bind variables or match against
+constants in a pattern.
+
+The pattern matching rewrite may consist of multiple alternatives
+in which case they are matched in order.
+
+Different from other functional languages, a pattern matching
+rewrite in Egel can be a mix of any arity.
+
+Let is just another form -or syntactic sugar- of such a rewrite.

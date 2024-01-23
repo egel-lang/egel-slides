@@ -1,0 +1,20 @@
+
+The previous slides showed the gist of the Egel language. Of course,
+there is more.
+
+Though the Egel software is still in an alpha state, we dabbled with
+various extensions and libraries.
+
+Mutable references and mutable dictionaries were included for performance
+reasons. Through mutation it's possible to create cycles in the term
+graph and those won't be collected.
+
+We added pipes and do notation, it's the prefered manner of dealing with
+function application chains in Egel.
+
+Literate programming is supported though -again- rudimentary, Egel will
+just blindly execute code blocks in a markdown file.
+
+And then there are various libraries in which we dabbled with regular
+expression, remote execution of Egel programs, and a Python bridge.
+

@@ -1,0 +1,8 @@
+
+In order not to type too much Egel has some syntactic sugar for often used data structures.
+
+Tuples are written in the conventional manner but under water are constant compositions
+of the data structure named 'tuple'.
+
+Instead of spelling out list with 'nil' and 'cons' constructors curly braces can be used.
+

@@ -1,0 +1,14 @@
+
+The Egel interpreter is implemented in C++.
+
+This allowed us to rely on C plus plus-es native reference counting and implement the interpreter without a garbage collector.
+
+In the source code, combinators form a complex object-oriented hierarchy.
+
+In order for people to make it easy to include Egel it is distributed in a header-only manner.
+
+The uncompromising relaxation of constraints in the Egel language, aswell as the operational semantics, aswell as its naive C plus plus implementation bring a substantial performance burden.
+
+Egel programs are very sluggish compared to programs in other languages, and the interpreter also isn't very user friendly.
+
+At the moment, Egel isn't very useful except for experiments and short dirty scripts. 

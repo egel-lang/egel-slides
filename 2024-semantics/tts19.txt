@@ -1,0 +1,10 @@
+
+Combinators come in two forms, constants or functions.
+
+We might want to introduce constants to create certain
+data structures - that's what 'data' is for.
+
+Then, of course, we need functions. Functions are
+usually expressed as being equal to certain pattern
+matching rewrites and may be recursive.
+
