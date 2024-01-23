@@ -1,0 +1,28 @@
+
+Given the operational model presented in the previous
+slides we have the mental model of the machinery
+capable of evaluating any Turing-capable (functional)
+language.
+
+Despite that, one might find the need to express 
+complex control flow directly in the term graph.
+
+Egel, as an experiment, implements a bit more elaborate
+model that mimicks exceptional control flow through
+handlers.
+
+Every thunk containing a redex is again expanded with
+a special field refering to the exception handler for
+that expression. In the picture, an example is show;
+for clarity the handler pointers are coloured green.
+
+The addition and throw redexes are a part of the
+term that operate within a context of a given handler,
+the identity function, and subsequently their exception
+fields point to that handler.
+
+The exception handler itself refers to the exception
+handler of the outer context.
+
+And, of course, the resulting graph is still directed
+and acyclic.

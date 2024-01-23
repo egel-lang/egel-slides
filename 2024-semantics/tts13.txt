@@ -1,0 +1,8 @@
+
+We'll not delve too much into concurrency issues
+of this semantic model but leave it at that 
+concurrency comes easily by just instantiating
+multiple roots that will each reduce their part
+of a directed acyclic graph.
+
+

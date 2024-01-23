@@ -1,0 +1,16 @@
+
+Now for the magic, instead of developing an elaborate -usually stack- machine
+we're simply going to change the representation of the term graph by naively
+following our mental steps during the evaluation.
+
+The first step is to recognize that the expression contains some work in the
+for of reducible expressions, also named redexes.
+
+These redexes can be evaluated in a specific order, and that is what the dotted
+lines signify. We'll start in the lower-right corner.
+
+Redexes may take arguments, those are pointed towards.
+
+But a redex also has a result! And that result should go somewhere. The solid
+lines pointing upward at empty boxes show where the result should go.
+

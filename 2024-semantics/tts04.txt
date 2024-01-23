@@ -1,0 +1,27 @@
+
+As time progressed, for functional languages, a number of machinery was invented.
+
+The early venerable Lisp compilers concentrated on an operational semantics around
+lists and direct compilation of expressions and words to assembly.
+
+Meanwhile, or a bit later, academics and mathematicians were looking for more 
+math based machinery and came up with the SECD and CAM machines for evaluating
+primarily lambda calculus based languages. SECD is mostly of academic interest,
+but CAM was used for the implementation of the well-known OCaml language.
+
+Miranda, another old language and predecessor of Haskell, was based on a combinator
+language recognizing the close kinship of lambda calculus and combinatory calculi
+as trivialized models of computation.
+
+In more modern (lazy) functional languages such as Haskell and Clean term rewriting
+of combinatory calculi were generalized into elaborate graph rewriting machines, notably
+the Spineless Tagless Graph Machine and the Parallel ABC machine.
+
+Despite all these advances, it is save to say that one lesson learned of graph rewriting
+is to better avoid doing any rewriting at all cost and invest into deep pipelines that
+aim to generate near imperative code amenable to Von Neumann architectures.
+
+We're going to take a step back, pretend we live in the seventies, and most of this
+is in its early years, and develop a trivialized operational model closely 
+related to all of the above.
+

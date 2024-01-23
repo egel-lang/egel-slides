@@ -1,0 +1,10 @@
+
+Now we'll investigate the evaluation of the term graph. On
+the left the original graph, on the right the term graph
+after one reduction step.
+
+Unsurprisingly, incrementing one results into two and that is
+placed in a receiving array. After we've done that, the new
+root of the graph becomes the next redex signalling that
+there's more work to be done.
+

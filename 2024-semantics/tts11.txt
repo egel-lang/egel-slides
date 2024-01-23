@@ -1,0 +1,20 @@
+
+Let's inspect the -I assume- well-known rule for the faculty function,
+the thing to recognize is that a redex -a statement of work- might
+result into more redexes or work to be done.
+
+So, given that rule -with a bit of tinkering- we should know how to 
+translate one step in the evaluation of a concrete instance of that
+rule.
+
+The redex is rewritten to a number of redexes. 'fac of five' will
+result into three redexes that will decrement, compute the next 'fac', and
+multiply the result.
+
+Basically, any work will result into more work to be done, or some result
+whereafter the remaining work will be done. 
+
+And this all while maintaing the acyclic invariant, you can take another
+moment to convince yourself that the above expansion didn't introduce
+cycles.
+

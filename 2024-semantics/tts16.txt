@@ -1,0 +1,16 @@
+
+The Egel language is a bare-bones front-end to the previous semantic model.
+
+It is untyped, on purpose. When exploring an operational model it just makes
+sense to not place too many restriction on the programs you can type in.
+
+Since we don't want to place restrictions on programs, we actually go the
+other route of relaxing as many constraints as we found useful.
+
+That comes at a performance cost, it also means at any point in time you
+can easily shoot yourself in the foot.
+
+However, we're not totally leaving the academic garden. People will recognize
+that the Egel language is close to a lambda calculus with constants in the
+coming slides.
+

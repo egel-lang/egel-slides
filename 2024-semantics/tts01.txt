@@ -1,0 +1,7 @@
+
+Oh, hi there! How are you?
+
+In this presentation we'll be discussing the Egel language and interpreter. We'll dive
+into the graph semantics -how egel programs are evaluated-, explore the language,
+review the current state of the interpreter, and set some future goals.
+

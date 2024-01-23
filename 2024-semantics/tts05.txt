@@ -1,0 +1,9 @@
+
+Remember the mathematical representation of a term a few slides back.
+
+On this slide we show a more computer friendly -or a bit more compact- 
+representation of that, terms are either primitive objects, or arrays of terms.
+
+What we still want to do is multiply the addition of two and three with the
+increment of one.
+

@@ -1,0 +1,9 @@
+
+Let's dive into a bit of history and go back approximately seventy five years. At that
+time researchers were investigating how to create useful languages, and one of the 
+primary questions at that time -though it looks innocuous now- was how to evaluate
+expressions. Once you can do that, you can start designing programming languages.
+
+So the first step is to write down an expression, and its tree representation, and
+ask yourself how you'ld design a machine that would do that.
+

@@ -1,0 +1,32 @@
+
+So far, I hope the examples given have convinced you that
+we've presented a model where evaluation can be achieved
+through trampolining the root node of a directed acyclic
+graph.
+
+But, given that, what did we learn from that and what 
+can we actually do with it?
+
+For starters, we can implement a functional language that
+exploits the model and shows that it actually works.
+
+But apart from that, it's a very strong invariant
+on a trivialized model that showcases, relates, and clarifies 
+a number of things.
+
+I have written down some of them.
+
+For one, through the act of trivialization we ended up 
+with a clear mental model that clarifies or can be elaborated upon.
+
+We may want to know why stack machines were a solution in the 
+first place, and this model -by making explicit what
+work should be done in what order- clarifies that; it also
+closely relates compiling with continuations to graph rewriting.
+
+Or we may want to know whether effect handlers in a functional
+language can create cycles, and this mental model clarifies
+that at least there's a solution where they won't. You can even
+make toy implementations of effect handling and evaluate them 
+with the interpreter and be sure!
+
