@@ -14,8 +14,6 @@ But apart from that, it's a very strong invariant
 on a trivialized model that showcases, relates, and clarifies 
 a number of things.
 
-I have written down some of them.
-
 For one, through the act of trivialization we ended up 
 with a clear mental model that clarifies or can be elaborated upon.
 
@@ -24,9 +22,7 @@ first place, and this model -by making explicit what
 work should be done in what order- clarifies that; it also
 closely relates compiling with continuations to graph rewriting.
 
-Or we may want to know whether effect handlers in a functional
-language can create cycles, and this mental model clarifies
-that at least there's a solution where they won't. You can even
-make toy implementations of effect handling and evaluate them 
-with the interpreter and be sure!
+Or we might be stuck proving that effect handlers cannot
+form cycles and refer to this model. A small toy implementation
+in Egel would provide some evidence for that.
 

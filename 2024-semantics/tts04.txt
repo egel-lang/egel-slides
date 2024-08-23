@@ -1,5 +1,5 @@
 
-As time progressed, for functional languages, a number of machinery was invented.
+As time progressed, for functional languages, a number of solutions were invented.
 
 The early venerable Lisp compilers concentrated on an operational semantics around
 lists and direct compilation of expressions and words to assembly.

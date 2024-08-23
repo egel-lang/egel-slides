@@ -1,13 +1,8 @@
+Let's see how we could exploit the model.
 
-Okay, so we've shown that evaluation reduces to trampolining the
-redexes at the root of a directed acyclic graph.
-
-This is a trivialization, nothing much happened, but we might
-try to exploit the model in a number of ways.
-
-For one, the model can be implemented with reference counting
-and I believe reference counting might be back as a solution 
-for future hardware since it's a local operation; whereas
+For one, a concrete machine can be implemented with reference counting.
+And reference counting is appealing for a number of reasons;
+primarily since it's a local operation; whereas
 most other schemes invest a lot into hiding that they need to
 scan the entire memory to collect.
 
@@ -16,18 +11,11 @@ optimization. If you term rewrites to another term in constant
 space, then that's all there's to it.
 
 Furthermore, this is a trivialized model where at any point
-in time the program state form a graph that can be serialized
+in time the program state forms a graph that can be serialized
 or shipped. That's not new, other languages can do that too,
-but it's made easy by the model.
-
-As we have shown, the model can easily be extended to 
-facilitate complex control flow or concurrency, and that is
-what we've done in the Egel interpreter.
+but it's made very easy.
 
 A pleasant property of the model is that when terms go out
 of scope, they are immediately collected, and that allows
-for a scheme where finalizers clean up resources. You never
-need to worry anymore whether a file handle is closed!
-
-
-But enough about the model, let's go look at the language!
+for a scheme where finalizers clean up resources. You'll never
+need to worry anymore whether a file handle is closed again!

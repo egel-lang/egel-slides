@@ -1,10 +1,10 @@
 
 Multiplying five with two gives ten. And at this point
-evalutation will be stopped since there are no redexes,
+evaluation will be stopped since there are no redexes,
 or work to be done, left anymore.
 
 We have shown how to evaluate small mathematical expressions
 and that was all pretty much straightforward, but how does
 that give the machinery for function evaluation?
 
-Let's go the next slide.
+Let's go to the next slide.

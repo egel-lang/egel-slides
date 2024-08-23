@@ -1,11 +1,11 @@
 
 The two most striking short-comings of the Egel interpreter are its speed and its unfriendliness and we do want to tackle both.
 
-Egel programs are written in a dynamic manner so I want to concentrate on shortening the feedback loop with better error and tracing messages.
+Egel programs are written in a dynamic manner so we want to concentrate on shortening the feedback loop with better error and tracing messages.
 
-The poor performance of Egel isn't as easily tackled since I made a number of costly, or even very costly, design decisions.
+The poor performance of Egel isn't as easily tackled since we made a number of costly, or even very costly, design decisions.
 
 In the long run, types should help, moving away from c plus plus should help, and realizing or borrowing a concurrent reference counting library should help too.
 
-Maybe I'll get around to it for Egel, but at minimum I want to prove that the elaborated operational model can be made performant with a typed backend.
+At minimum we want to prove that the elaborated operational model can be made performant with a typed backend.
 

@@ -1,7 +1,7 @@
 
 Oh... Hi there! How are you?
 
-I am Matilda, an Artificial Intelligence voice from Natural Readers. I'll be talking
+I am Matilda, an Artificial Intelligence voice from Google. I'll be talking
 you through the coming slides.
 
 In this presentation we'll be discussing the Egel language and interpreter. We'll dive

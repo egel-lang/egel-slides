@@ -1,7 +1,9 @@
 
 We twisted the representation, though evaluation is straightforward and
-we'll come to that, I painted the pointer to the root of the graph red,
-and there's something going on here, following that pointer you won't find
+we'll come to that, 
+
+I coloured the pointer to the root of the graph red,
+and there's something going on there, following that pointer you won't find
 cycles.
 
 We started of with a directed acyclic graph for an expression and twisting
